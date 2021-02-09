@@ -4,7 +4,7 @@ let myElement = document.querySelector(".typewritten");
 
 setInterval(function () {
     typeScript(myElement)
-}, 8000)
+}, 10000)
 //created variable to show as null
 function typeScript(n) {
     let myText = n.innerHTML;
