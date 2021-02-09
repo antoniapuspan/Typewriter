@@ -7,10 +7,12 @@ setInterval(function () {
 }, 3000)
 //created variable to show as null
 function typeScript(n) {
-let myText = myElement.innerHTML;
+let myText = n.innerHTML;
 let toShow = "";
 myElement.innerHTML = toShow;
 let i = 0;
+
+
 
 
 }
