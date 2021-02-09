@@ -1,7 +1,7 @@
 "use strict";
 //read text
-
-    let readString = document.querySelector(".typewritten").innerHTML;
-    console.log(readString);
-    //remove text
-    
+let myElement =  document.querySelector(".typewritten");
+//created variable to show as null
+let myText = myElement.innerHTML;
+myElement.innerHTML = '';
+let i = 0;
